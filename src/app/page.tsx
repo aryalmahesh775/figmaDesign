@@ -92,22 +92,6 @@ export default function Home() {
             <MdMenu className="text-3xl" />
           </button>
         </div>
-        {/* <div
-          className="relative w-full h-[75vh] flex items-center justify-center bg-cover bg-no-repeat bg-center"
-          style={{
-            backgroundImage: `url('/hero.png')`,
-            backgroundSize: "cover",
-            zIndex: 10,
-            margin:"0px 40px"
-          }}
-        >
-          <div className="absolute inset-0 bg-black/50 bg-opacity-40"></div>
-          <div className="absolute inset-0 flex items-center justify-center">
-            <button className="bg-white bg-opacity-80 cursor-pointer text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold shadow-lg">
-              ▶
-            </button>
-          </div>
-        </div> */}
         <div className="h-[75vh] w-full relative">
           <Image
             src="/hero.png"
